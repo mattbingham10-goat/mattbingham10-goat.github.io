@@ -1,0 +1,30 @@
+* {
+    background-color: beige;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: beige;
+}
+
+#block_1{
+    color: darkred;
+    text-align: center;
+    border: 0;
+    height: 350px;
+    margin: 0px;
+}
+
+#block_2{
+    color: darkred;
+    text-align: left;
+    border: 0px;
+    margin: 0;
+}
+
+
