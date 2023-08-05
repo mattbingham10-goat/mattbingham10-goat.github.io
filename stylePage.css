@@ -1,6 +1,8 @@
 * {
     background-color: beige;
 }
+
+/* This allows my sight to extend all the way to the boundaries of the browser */
 html, body{
     margin: 0;
     padding: 0;
@@ -10,21 +12,55 @@ html, body{
 
 body {
     background-color: beige;
+    font-size: 20px;
 }
 
+/* Block one and two include the two column areas */
 #block_1{
-    color: darkred;
     text-align: center;
     border: 0;
     height: 350px;
-    margin: 0px;
-}
-
-#block_2{
-    color: darkred;
-    text-align: left;
-    border: 0px;
     margin: 0;
 }
 
+#block_2{
+    border: 0;
+    margin: 0;
+}
+
+h3 {
+    color: darkred;
+    text-decoration: underline;
+}
+
+#name,h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* This is to adjust how my line break looks */
+hr {
+    border: 2px solid darkred;
+}
+
+.col {
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+
+/* clears floats after columns*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flex_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#education, #courseWork, #skills, #projects{
+    padding-left: 10px;
+}
 
