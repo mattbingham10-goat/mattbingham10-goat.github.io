@@ -17,10 +17,8 @@ body {
 
 /* Block one and two include the two column areas */
 #block_1{
-    text-align: center;
-    border: 0;
+    text-align: left;
     height: 350px;
-    margin: 0;
 }
 
 #block_2{
@@ -62,5 +60,9 @@ hr {
 
 #education, #courseWork, #skills, #projects{
     padding-left: 10px;
+}
+
+th {
+    padding-bottom: 10px;
 }
 
